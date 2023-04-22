@@ -1,0 +1,118 @@
+body{
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    cursor: url(https://cdn.custom-cursor.com/db/4656/32/arrow2662.png) , default!important;;
+}
+a{
+    text-decoration: none;
+    color: #090933e5;
+}
+.logo img{
+    height: 50px;
+    margin: 10px;
+    border-radius: 20%;
+}
+.logo{
+    float: left;
+}
+.logo :hover{
+    cursor: url(https://cdn.custom-cursor.com/db/4655/32/arrow2662.png) , pointer!important;
+}
+
+header{
+    background-color: #245754;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    font-weight: 600;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav a:hover{
+    background-color: #fff;
+    color: #245754;
+    border-radius: 5px;
+    cursor: url(https://cdn.custom-cursor.com/db/4655/32/arrow2662.png) , pointer!important;
+}
+
+.form_box input[type="checkbox"]{
+    margin-left: 30px;
+    margin-right: 0%;
+
+}
+.container{
+    background: url(../Img/background.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.form_box a{
+    color: #0084ffe8;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+.form_box a:hover{
+    color: #245754;
+    cursor: url(https://cdn.custom-cursor.com/db/4655/32/arrow2662.png) , pointer!important;
+}
+
+.form_box h1{
+    text-align: center;
+    color: #245754;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form_box input[type="submit"]:hover{
+    cursor: url(https://cdn.custom-cursor.com/db/4655/32/arrow2662.png) , pointer!important;
+    background-color: #02294ee8;
+}
+
+
+.form_box{
+    width: 500px;
+    height: auto;
+    background-color: #d4d4d4;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+}
+
+
+
+.form_box input[type="text"], .form_box input[type="password"], .form_box input[type="submit"], .form_box input[type="email"], .form_box input[type="number"], .form_box input[type="date"]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.form_box input[type="submit"]{
+    width: 50%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #245754;
+    color: #fff;
+}
+
+
+
+
